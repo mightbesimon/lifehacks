@@ -1,28 +1,31 @@
 [build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
 
 [project]
-name = "lifehacks"
-version = "0.0.0"
+name = 'lifehacks'
+version = '0.99.99'
 authors = [
-  { name="mightbesimon" },
+  { name='mightbesimon' },
 ]
-description = "metaclass for metaclasses"
-readme = "README.md"
-license = { file="LICENSE.md" }
-requires-python = ">=3.7"
+description = 'lifehacks language extension by mightbesimon.com'
+readme = 'README.md'
+license = { file='LICENSE.md' }
+requires-python = '>=3.7'
 classifiers = [
-    "Development Status :: 1 - Planning",
-    "Intended Audience :: Developers",
-    "License :: Other/Proprietary License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3",
-    "Topic :: Software Development",
-    "Typing :: Typed",
+    'Intended Audience :: Developers',
+    'License :: Other/Proprietary License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3',
+    'Topic :: Software Development',
+    'Typing :: Typed',
+]
+dependencies = [
+  'lifehacks.metaclasses',
+  'lifehacks.colour',
 ]
 
 [project.urls]
-"Homepage" = "https://mightbesimon.com"
-"Documentation" = "https://github.com/mightbesimon/lifehacks"
-"Source Code" = "https://github.com/mightbesimon/lifehacks"
+'Homepage' = 'https://mightbesimon.com'
+'Documentation' = 'https://github.com/mightbesimon/lifehacks'
+'Source Code' = 'https://github.com/mightbesimon/lifehacks'
