@@ -4,9 +4,11 @@
 
 ```plaintext
 📦 lifehacks
-├── meta
-├── enum
-├── EnumException
+│
+├── 📦 metaclasses
+│   ├── meta
+│   ├── enum
+│   └── EnumException
 │
 └── 📦 colour
     ├── Colour
