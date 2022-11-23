@@ -4,7 +4,7 @@ build-backend = 'setuptools.build_meta'
 
 [project]
 name = 'lifehacks'
-version = '0.99.99'
+version = '1.0.0'
 authors = [
   { name='mightbesimon' },
 ]
@@ -22,10 +22,11 @@ classifiers = [
 ]
 dependencies = [
   'lifehacks.metaclasses',
+  'lifehacks.objects',
   'lifehacks.colour',
 ]
 
 [project.urls]
 'Homepage' = 'https://mightbesimon.com'
-'Documentation' = 'https://github.com/mightbesimon/lifehacks'
 'Source Code' = 'https://github.com/mightbesimon/lifehacks'
+'Documentation' = 'https://github.com/mightbesimon/lifehacks'

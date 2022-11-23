@@ -10,6 +10,11 @@
 │   ├── enum
 │   └── EnumException
 │
+├── 📦 objects
+│   ├── CList
+│   ├── enum
+│   └── EnumException
+│
 └── 📦 colour
     ├── Colour
     ├── hsla
@@ -20,9 +25,16 @@
         └── Mariana
 ```
 
+## Installation
+
+```base
+pip install lifehacks
+```
+
 ## Usage
 
 - [`lifehacks.metaclasses`](https://github.com/mightbesimon/lifehacks.metaclasses/#readme)
+- [`lifehacks.objects`](https://github.com/mightbesimon/lifehacks.objects/#readme)
 - [`lifehacks.colour`](https://github.com/mightbesimon/lifehacks.colour/#readme)
 
 ## Contributors
