@@ -40,4 +40,4 @@ pip install lifehacks
 ## Contributors
 
 - **Simon** - [mightbesimon](https://github.com/mightbesimon)
-- you?
+- 👉 you? 👈
